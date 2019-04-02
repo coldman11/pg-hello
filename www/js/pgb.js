@@ -20,3 +20,8 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function myInfo() {
+	info = 'John Smith'
+	navigator.notification.alert(info)
+}
